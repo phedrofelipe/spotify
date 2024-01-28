@@ -1,6 +1,7 @@
 body {
     background-color: #000000;
     font-family: var(--font--dm-sans);
+    overflow-y: hidden; /* REMOVER BARRA DE ROLAGEM VERTICAL */
 }
 
 
@@ -78,6 +79,7 @@ body {
     text-decoration: none;
     text-transform: none;
     padding: 20px 10px;
+    align-content: center;
 }
 
 .library .library__button .fa {
@@ -138,6 +140,10 @@ body {
     border: 0;
     width: 113px;
     margin-top: 12px;
+}
+
+.section-playlist__content .section-playlist__button:hover {
+    box-shadow: rgb(204, 219, 232) 2px 1px 1px 0px;
 }
 
 .sidebar .cookies {
@@ -210,4 +216,8 @@ body {
     border-radius: 40px;
     cursor: pointer;
     flex-shrink: 0;
+}
+
+.disclaimer-premium button:hover {
+    box-shadow: rgb(204, 219, 232) 2px 1px 1px 0px;
 }
